@@ -96,19 +96,19 @@
             <version>4.1.2</version>
         </dependency>
 
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/org.uncommons/reportng &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>org.uncommons</groupId>-->
-<!--            <artifactId>reportng</artifactId>-->
-<!--            <version>1.1.4</version>-->
-<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/org.uncommons/reportng -->
+        <dependency>
+            <groupId>org.uncommons</groupId>
+            <artifactId>reportng</artifactId>
+            <version>1.1.4</version>
+        </dependency>
 
-<!--        &lt;!&ndash; https://mvnrepository.com/artifact/com.google.inject/guice &ndash;&gt;-->
-<!--        <dependency>-->
-<!--            <groupId>com.google.inject</groupId>-->
-<!--            <artifactId>guice</artifactId>-->
-<!--            <version>5.0.1</version>-->
-<!--        </dependency>-->
+        <!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
+        <dependency>
+            <groupId>com.google.inject</groupId>
+            <artifactId>guice</artifactId>
+            <version>5.0.1</version>
+        </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
