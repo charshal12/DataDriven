@@ -21,7 +21,10 @@ public class AddCustomerTest extends TestBase {
         Assert.assertTrue(alert.getText().contains(alerttext));
         Thread.sleep(3000);
         alert.accept();
-        Thread.sleep(3000);
+//        Thread.sleep(3000);
+//        Assert.fail("Login Not Successful!!");
+
+
     }
 
     @DataProvider

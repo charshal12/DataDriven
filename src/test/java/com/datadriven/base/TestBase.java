@@ -1,6 +1,9 @@
 package com.datadriven.base;
 
 import com.datadriven.utilities.ExcelReader;
+import com.datadriven.utilities.ExtentManager;
+import com.relevantcodes.extentreports.ExtentReports;
+import com.relevantcodes.extentreports.ExtentTest;
 import org.apache.log4j.BasicConfigurator;
 import org.apache.log4j.*;
 import org.openqa.selenium.By;
@@ -42,6 +45,9 @@ public class TestBase<driverPath> {
 //    String log4jConfPath = "E:\\Automation_projects\\APITestingAutomation\\RahulArora_Course\\DataDrivenFramework\\src\\test\\resources\\properties\\log4j2.properties";
     public static ExcelReader excel = new ExcelReader(System.getProperty("user.dir") + "\\src\\test\\resources\\excel\\testData.xlsx");
     public static WebDriverWait wait;
+
+    public ExtentReports rep = ExtentManager.getInstance();
+    public static ExtentTest test;
 
     @BeforeSuite
     public void setUp() throws IOException {
